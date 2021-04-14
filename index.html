@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculadora em JS</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div>
+            <input type="text" id="tela" readonly="">
+        </div>
+        <div class="button">
+            <input type="submit" value="C" onclick="limpar();">
+            <input type="submit" value="/" onclick="mostrar('/');">
+            <input type="submit" value="x" onclick="mostrar('x');">
+            <input type="submit" value="1" onclick="mostrar(1);">
+            <input type="submit" value="2" onclick="mostrar(2);">
+            <input type="submit" value="+" onclick="mostrar('+');">
+            <input type="submit" value="3" onclick="mostrar(3);">
+            <input type="submit" value="4" onclick="mostrar(4);">
+            <input type="submit" value="-" onclick="mostrar('-');">
+            <input type="submit" value="5" onclick="mostrar(5);">
+            <input type="submit" value="6" onclick="mostrar(6);">
+            <input type="submit" value="=" id="igual" onclick="calcular();">
+            <input type="submit" value="7" onclick="mostrar(7);">
+            <input type="submit" value="8" onclick="mostrar(8);">
+            <input type="submit" value="." onclick="mostrar('.');">
+            <input type="submit" value="9" onclick="mostrar(9);">
+            <input type="submit" value="0" onclick="mostrar(0);">
+        </div>
+        <img src="RazerLogo.png" alt="razer-logo" id="razer-logo">
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

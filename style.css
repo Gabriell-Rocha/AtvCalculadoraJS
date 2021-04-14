@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+.calculadora{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 480px;
+    background-color: rgb(19, 24, 22);
+    padding: 1%;
+    align-content: start;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-left: 35%;
+}
+#tela{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 5%;
+    font-size: 35px;
+    color:rgb(72, 143, 66);
+    background-color: rgb(19, 18, 18);
+    outline: none;
+    font-family: 'Source Code Pro', monospace;
+    text-align: right;
+    font-weight: bolder;
+    
+}
+.button input{
+    margin: 9px;
+    margin-left: 8%;
+    align-self: center;
+    width: 65px;
+    height: 50px;
+    font-size: 18px;
+    font-weight:bold;
+    color: rgb(11, 12, 11);
+    background-color: rgb(72, 143, 66);
+    outline: none;
+    border: none;
+}
+.button input:hover{
+    background-color: rgb(33, 82, 27);
+}
+.button input:active{
+    background-color: rgb(85, 228, 72); 
+}
+#razer-logo{
+    width: 45%;
+    position: relative;
+    bottom: 85px;
+    left: 105px;
+}
