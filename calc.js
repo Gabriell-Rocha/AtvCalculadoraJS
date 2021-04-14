@@ -1,15 +1,15 @@
 let op = '';
-function limpar(){
+function Limpar(){
     document.getElementById('tela').value = "";
 }
-function mostrar(valor){
+function Mostrar(valor){
     document.getElementById('tela').value += valor;
 
      if(valor==='+' || valor==='-' || valor==='x' || valor==='/'){
      op = valor;
     }
 }
-function calcular(){
+function Calcular(){
     let arrayOperacao = document.getElementById('tela').value.split(op)
     arrayOperacao[0] = parseFloat(arrayOperacao[0]);
     arrayOperacao[1] = parseFloat(arrayOperacao[1]);
